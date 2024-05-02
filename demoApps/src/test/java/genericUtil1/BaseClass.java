@@ -12,6 +12,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
 
 public class BaseClass {
 	WebDriver driver;
@@ -51,6 +52,10 @@ public class BaseClass {
 	@AfterSuite
 	public void as() {
 		System.out.println("This is After Suite");
+	}
+	@Test
+	public void test() {
+		System.out.println("123");
 	}
 
 }
