@@ -39,5 +39,9 @@ public class ToRegisterAndLoginUser extends BaseClass {
 		System.out.println("Pass:User has successfully logged in");
 		
 	}
+	@Test
+	public void test1() {
+		System.out.println("you are the best");
+	}
 
 }
