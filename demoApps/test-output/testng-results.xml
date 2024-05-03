@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-01T09:39:12 IST" name="Suite" finished-at="2024-05-01T09:39:51 IST" duration-ms="38706">
+  <suite started-at="2024-05-03T09:02:24 IST" name="Suite" finished-at="2024-05-03T09:02:27 IST" duration-ms="2788">
     <groups>
     </groups>
-    <test started-at="2024-05-01T09:39:12 IST" name="Test1" finished-at="2024-05-01T09:39:17 IST" duration-ms="4816">
-      <class name="testNG1.GoogleCrossBrowserTesting">
-        <test-method signature="googleTest(java.lang.String)[pri:0, instance:testNG1.GoogleCrossBrowserTesting@20ccf40b]" started-at="2024-05-01T09:39:12 IST" name="googleTest" finished-at="2024-05-01T09:39:17 IST" duration-ms="4790" status="PASS">
+    <test started-at="2024-05-03T09:02:24 IST" name="Test1" finished-at="2024-05-03T09:02:26 IST" duration-ms="1490">
+      <class name="testNg2.GoogleFacebookCross">
+        <test-method signature="googleTest(java.lang.String)[pri:0, instance:testNg2.GoogleFacebookCross@20ccf40b]" started-at="2024-05-03T09:02:24 IST" name="googleTest" finished-at="2024-05-03T09:02:26 IST" duration-ms="1459" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googleTest -->
-      </class> <!-- testNG1.GoogleCrossBrowserTesting -->
+      </class> <!-- testNg2.GoogleFacebookCross -->
     </test> <!-- Test1 -->
-    <test started-at="2024-05-01T09:39:17 IST" name="Test2" finished-at="2024-05-01T09:39:51 IST" duration-ms="33849">
-      <class name="testNG1.GoogleCrossBrowserTesting">
-        <test-method signature="googleTest(java.lang.String)[pri:0, instance:testNG1.GoogleCrossBrowserTesting@59505b48]" started-at="2024-05-01T09:39:17 IST" name="googleTest" finished-at="2024-05-01T09:39:51 IST" duration-ms="33845" status="PASS">
+    <test started-at="2024-05-03T09:02:26 IST" name="Test2" finished-at="2024-05-03T09:02:27 IST" duration-ms="1251">
+      <class name="testNg2.GoogleFacebookCross">
+        <test-method signature="googleTest(java.lang.String)[pri:0, instance:testNg2.GoogleFacebookCross@59505b48]" started-at="2024-05-03T09:02:26 IST" name="googleTest" finished-at="2024-05-03T09:02:27 IST" duration-ms="1249" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -33,7 +33,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googleTest -->
-      </class> <!-- testNG1.GoogleCrossBrowserTesting -->
+      </class> <!-- testNg2.GoogleFacebookCross -->
     </test> <!-- Test2 -->
   </suite> <!-- Suite -->
 </testng-results>

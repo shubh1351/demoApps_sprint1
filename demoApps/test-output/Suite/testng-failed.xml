@@ -3,6 +3,11 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="testNG.HardAssert1">
+        <methods>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- testNG.HardAssert1 -->
       <class name="testNG.HardAssert">
         <methods>
           <include name="test4"/>
@@ -14,11 +19,6 @@
           <include name="test2"/>
         </methods>
       </class> <!-- testNG.SoftAssert23 -->
-      <class name="testNG.HardAssert1">
-        <methods>
-          <include name="test2"/>
-        </methods>
-      </class> <!-- testNG.HardAssert1 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
